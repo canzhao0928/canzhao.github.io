@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Case Study of Melbourne Watch Gallery</title>
+  <meta name="description" content="Case study page of Project" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/Can_Zhao.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Can Zhao</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Melbourne Watch Gallery</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          This is an e-commerce website that sells watches. It also supports administrators in managing the watches.
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="http://inbox-page.s3-website-ap-southeast-2.amazonaws.com/" class="btn btn--bg" target="_blank">Live
+          Link</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <div class="slider">
+            <div class="slide">
+              <img src="./assets/jpeg/mwg-1.jpg" alt="" class="testimonial__photo" />
+            </div>
+            <div class="slide">
+              <img src="./assets/jpeg/mwg-2.jpg" alt="" class="testimonial__photo" />
+            </div>
+            <div class="slide">
+              <img src="./assets/jpeg/mwg-3.jpg" alt="" class="testimonial__photo" />
+            </div>
+            <div class="slide">
+              <img src="./assets/jpeg/mwg-4.jpg" alt="" class="testimonial__photo" />
+            </div>
+            <div class="slide">
+              <img src="./assets/jpeg/mwg-5.jpg" alt="" class="testimonial__photo" />
+            </div>
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Project Overview</h3>
+            <p class="project-details__desc-para">
+              This project is an e-commerce website that sells electronic
+              watches. Users can browse watches and add them to the shopping cart. By clicking on the image or title,
+              they can enter the detailed product page and add items to the cart. It's also possible to remove items
+              from the cart. The total value and quantity of items in the cart are automatically calculated and
+              displayed. The system supports product management, allowing administrators to add, delete, modify, and
+              query products after logging in.
+            </p>
+            <p class="project-details__desc-para">
+              1. Developed smartwatch display page and shopping cart using HTML/CSS, Bootstrap, and JavaScript.<br>
+              2. Stored Products data in MySQL database by phpMyAdmin.<br>
+              3. Implemented product management and login functions using PHP to update data from MySQL, allowing
+              CRUD operations of product data and user authentication.<br>
+              4. Successfully deployed the web application on Amazon EC2, ensuring reliable hosting and scalability
+              for a seamless user experience.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tools Used</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">phpMyadmin</div>
+              <div class="skills__skill">Bootstrap</div>
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">See Live</h3>
+            <a href="http://inbox-page.s3-website-ap-southeast-2.amazonaws.com/"
+              class="btn btn--med btn--theme project-details__links-btn" target="_blank">Live Link</a>
+            <a href="https://github.com/canzhao0928/mail" class="btn btn--med btn--theme-inv project-details__links-btn"
+              target="_blank">Code Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/can-zhao-a29159121/">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/canzhao0928">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <!-- <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a> -->
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Can Zhao</h4>
+          <p class="main-footer__short-desc">
+            <span>Tel: (+61)478198241</span><br>
+            <span>E-mail: zhaocan0928@gmail.com</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="main-footer__lower">
+        &copy; Copyright 2021. Made by
+        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+      </div> -->
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
